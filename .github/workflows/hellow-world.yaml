@@ -1,0 +1,11 @@
+name: hello world
+
+on:
+    workflow_dispatch:
+
+jobs:
+    basic-build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Run a one-line script"
+              run: echo Hello world!
